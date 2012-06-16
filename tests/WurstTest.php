@@ -1,5 +1,5 @@
 <?php
-require_once '../index.php';
+require_once dirname(__FILE__).'/../index.php';
 
 class Wurst_Tests_WurstTest extends PHPUnit_Framework_TestCase
 {
