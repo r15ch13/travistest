@@ -11,6 +11,11 @@
          syntaxCheck="false"
          bootstrap="tests/WurstTest.php"
 >
+  <testsuites>
+    <testsuite name="Wurst Test Suite">
+      <directory>./tests/</directory>
+    </testsuite>
+  </testsuites>
 
   <filter>
     <whitelist>
